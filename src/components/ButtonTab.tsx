@@ -3,17 +3,20 @@ import "../css/buttonTab.css";
 
 interface props {
   Title: string;
+  Link?: string | "";
   IsSelected?: boolean | false;
 }
 
-const ButtonTab = ({ Title, IsSelected }: props) => {
+const ButtonTab = ({ Title, Link, IsSelected }: props) => {
   return (
     <div className="buttonTab-container-base">
-      <span
-        className={IsSelected ? "buttonTab-selected" : "buttonTab-unselected"}
-      >
-        {Title}
-      </span>
+      <a href={`/${Link ? Link : ""}`}>
+        <span
+          className={IsSelected ? "buttonTab-selected" : "buttonTab-unselected"}
+        >
+          {Title}
+        </span>
+      </a>
     </div>
   );
 };

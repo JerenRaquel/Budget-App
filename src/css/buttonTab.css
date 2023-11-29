@@ -4,6 +4,10 @@
   font-weight: bolder;
 }
 
+.buttonTab-button {
+  text-decoration: none;
+}
+
 .buttonTab-selected {
   color: #73FBD3;
 }
