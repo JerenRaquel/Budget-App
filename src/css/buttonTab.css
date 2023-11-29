@@ -1,0 +1,13 @@
+.buttonTab-container-base {
+  padding: 1em 0.25em;
+
+  font-weight: bolder;
+}
+
+.buttonTab-selected {
+  color: #73FBD3;
+}
+
+.buttonTab-unselected {
+  color: white;
+}

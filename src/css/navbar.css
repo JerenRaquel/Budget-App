@@ -1,0 +1,11 @@
+.base-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 5vh 2.5vw;
+
+  background-color: #4F4789;
+
+  color: white;
+  text-align: center;
+}
